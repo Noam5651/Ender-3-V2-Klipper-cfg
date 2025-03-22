@@ -4,6 +4,10 @@ port = 7125
 klippy_uds_address = /tmp/klippy_uds
 max_upload_size = 2048
 
+[spoolman]
+server = http://10.0.0.11:8000
+sync_rate = 5
+
 [file_manager]
 queue_gcode_uploads = False
 enable_object_processing = True
